@@ -1,0 +1,21 @@
+{
+  "name": "typescript-book",
+  "version": "1.0.0",
+  "description": "TypeScript 学习指南",
+  "main": "examples.ts",
+  "scripts": {
+    "start": "ts-node examples.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn examples.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["typescript", "tutorial", "learning"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
